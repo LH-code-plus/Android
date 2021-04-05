@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.td_tab_weixin:
-                Log.v("lh","第一个tab被点击1111");
+                Log.v("lh","第一个tab被点击2222");
                 SelectTab(0);
                 break;
             case R.id.td_tab_friend:
