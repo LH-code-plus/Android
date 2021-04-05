@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView imgtxl;
     ImageView imgsetting;
 
+    //注释注释
+    //注释
     private Fragment tab01 = new weixinFragment();
     private Fragment tab02 = new frendFragment();
     private Fragment tab03 = new txlFragment();
@@ -63,14 +65,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         SelectTab(0);
 
-
-
     }
     @Override
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.td_tab_weixin:
-                Log.v("lh","第一个tab被点击");
+                Log.v("lh","第一个tab被点击1111");
                 SelectTab(0);
                 break;
             case R.id.td_tab_friend:
