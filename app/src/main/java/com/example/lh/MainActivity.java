@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView imgtxl;
     ImageView imgsetting;
 
-    //注释注释
-    //注释
+
     private Fragment tab01 = new weixinFragment();
     private Fragment tab02 = new frendFragment();
     private Fragment tab03 = new txlFragment();
