@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+
     private void SelectTab(int i) {
         fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
@@ -120,7 +121,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         transaction.commit();
     }
-
     public void initFragment(){
         fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
