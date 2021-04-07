@@ -144,4 +144,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imgtxl.setImageResource(R.drawable.tab_address_normal);
         imgsetting.setImageResource(R.drawable.tab_settings_normal);
     }
+
+
 }
