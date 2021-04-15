@@ -16,7 +16,7 @@ public class MyAdpter extends RecyclerView.Adapter<MyAdpter.MyViewHolder> {
     private Context context;
     private List<String> list;
     private View inflater;
-    //构造方法，传入数据
+    //构造方法，传入数据.
     public MyAdpter(Context context, List<String> list){
         this.context = context;
         this.list = list;
